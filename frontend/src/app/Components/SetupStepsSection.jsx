@@ -6,7 +6,7 @@ import { Clock, Settings, Database, PhoneCall, CheckCircle } from "lucide-react"
 const steps = [
   {
     id: 1,
-    time: "1 min",
+    time: "First step",
     title: "Customize your agent",
     description:
       "Define your business hours, preferred tone, and how customers should be greeted. The AI Agent instantly adapts to your brand’s personality and starts working for you.",
@@ -53,7 +53,7 @@ const steps = [
   },
   {
     id: 2,
-    time: "2 min",
+    time: "Second Step",
     title: "Connect your systems",
     description:
       "Sync your contacts, CRM, or lead data in seconds. Our AI Agent integrates seamlessly with your tools, no technical setup or training required.",
@@ -183,7 +183,7 @@ export default function SetupStepsSection() {
           </span>
         </h2>
         <p className="text-[#3B3B3B] text-lg max-w-3xl mx-auto leading-relaxed">
-          Connect your tools and let Our AI Agent start automating your calls and bookings. <br/>No
+          Connect your tools and let your AI Agent start automating your calls and bookings. <br/>No
           technical setup or training required.
         </p>
       </motion.div>

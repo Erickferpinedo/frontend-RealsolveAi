@@ -94,7 +94,7 @@ export default function CtaDemoSection() {
 
         {/* Footer text */}
         <p className="text-xs sm:text-sm text-[#3B3B3B]/70 mt-6 max-w-sm mx-auto leading-relaxed">
-          Experience the power of our AI receptionist <span className="font-semibold text-[#1E2A78]">Lina</span>,
+          Experience the power of your AI receptionist.<br />
           powered by <span className="font-semibold text-[#1E2A78]">RealSolveAI</span>.
         </p>
       </motion.div>

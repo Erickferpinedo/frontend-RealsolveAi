@@ -9,6 +9,8 @@ import SetupStepsSection from "./Components/SetupStepsSection";
 import TrustCarouselSection from "./Components/TrustCarouselSection";
 import CtaDemoSection from "./Components/CtaDemoSection";
 import Footer from "./Components/Footer";
+import MeetOurTeamSection from "./Components/MeetOurTeamSection";
+import WhyUsSection from "./Components/WhyUsSection";
 
 
 
@@ -30,9 +32,11 @@ export default function Page() {
       <Navbar />
       <HeroSection />
     <CallPreviewSection />
+    <WhyUsSection />
 <StatsSection />
 <SetupStepsSection />
 <TrustCarouselSection />
+<MeetOurTeamSection />
 <CtaDemoSection />
 <Footer />
     </main>

@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="flex items-center gap-3">
           <div className="w-12 h-12 relative flex items-center justify-center">
             <Image
-              src="/logo-rs.png"
+              src="/LogoRS.png"
               alt="RealSolveAI Logo"
               fill
               className="object-contain"

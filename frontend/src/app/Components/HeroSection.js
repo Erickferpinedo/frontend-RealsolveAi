@@ -17,7 +17,7 @@ const HeroSection = () => {
         viewport={{ once: true }}
         className="px-4 py-1.5 mb-8 rounded-full border border-[#2DA8F8]/30 text-[#1E2A78] text-sm font-medium bg-[#E6F4FF]/60 shadow-sm"
       >
-       Built for Teams  <span className="font-bold text-[#2DA8F8]">Who Never Miss a Lead</span>
+       Built for Teams Who <span className="font-bold text-[#2DA8F8]"> Never  Miss a call</span>
       </motion.div>
 
       {/* ===== Title ===== */}
@@ -40,10 +40,10 @@ const HeroSection = () => {
         viewport={{ once: true }}
         className="max-w-2xl mt-8 text-[#3B3B3B] text-lg leading-relaxed"
       >
-        Meet our <span className="font-semibold text-[#1E2A78]">AI Agent</span>, your virtual receptionist 
-        powered by RealSolve AI.<br/> Handles every incoming and outgoing call, answers questions, 
-        books appointments, and follows up with customers automatically. Whether you manage a 
-        restaurant, clinic, or sales team, ensures no lead or reservation slips through 
+        Meet your <span className="font-semibold text-[#1E2A78]">  AI Agent</span>, your virtual receptionist 
+        powered by RealSolveAI.<br/> Handles every incoming and outgoing call, answers questions, 
+        books appointments, and follows up with customers automatically. <br/>Whether you manage a 
+        restaurant, clinic, or sales team, ensures no calls or reservation slips through 
         the cracks, helping you achieve more bookings with less busywork.
       </motion.p>
 
