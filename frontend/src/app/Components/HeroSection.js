@@ -26,10 +26,10 @@ const HeroSection = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
         viewport={{ once: true }}
-        className="text-4xl sm:text-4xl md:text-5xl md:text-7xl font-extrabold leading-tight text-[#0B0C10]"
+        className="text-4xl sm:text-4xl md:text-5xl md:text-7xl font-medium text-[#1E2A78] mt-10 tracking-tight"
       >
         Never miss a call <br />
-        <span className="text-[#2DA8F8]">or booking again</span>
+        <span className="text-[#1E2A78] mt-10 tracking-tight">or booking again</span>
       </motion.h1>
 
       {/* ===== Description ===== */}
@@ -38,13 +38,9 @@ const HeroSection = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.15, duration: 0.7 }}
         viewport={{ once: true }}
-        className="max-w-2xl mt-8 text-[#3B3B3B] text-lg leading-relaxed"
+        className="max-w-2xl  mt-8 text-xl sm:text-xl md:text-xl md:text-xl font-medium text-[#1E2A78] mt-10 tracking-tight"
       >
-        Meet your <span className="font-semibold text-[#1E2A78]">  AI Agent</span>, your virtual receptionist 
-        powered by RealSolveAI.<br/> Handles every incoming and outgoing call, answers questions, 
-        books appointments, and follows up with customers automatically. <br/>Whether you manage a 
-        restaurant, clinic, or sales team, ensures no calls or reservation slips through 
-        the cracks, helping you achieve more bookings with less busywork.
+        RealSolveAI builds practical AI agents for everyday businesses, starting with an AI receptionist that answers calls, books customers, and follows up automatically.
       </motion.p>
 
       {/* ===== CTA ===== */}
@@ -59,7 +55,7 @@ const HeroSection = () => {
           href="https://form.typeform.com/to/yAT13EVT"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-8 py-4 bg-[#2DA8F8] text-white text-lg font-semibold rounded-xl shadow-lg hover:bg-[#1E2A78] transition-all duration-300 hover:scale-105"
+          className="inline-flex items-center gap-2 px-8 py-4 bg-black text-white text-lg font-semibold rounded-xl shadow-lg hover:bg-[#1E2A78] transition-all duration-300 hover:scale-105"
         >
           Schedule Demo
           <ArrowRight className="w-5 h-5" />

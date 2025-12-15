@@ -72,7 +72,7 @@ export default function Navbar() {
             href="https://form.typeform.com/to/yAT13EVT"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative inline-flex items-center justify-center px-6 py-2.5 rounded-lg font-medium text-white bg-gradient-to-r from-[#2DA8F8] to-[#1E2A78] shadow-lg shadow-[#2DA8F8]/20 hover:shadow-[#1E2A78]/30 transition-all duration-300 hover:scale-105 active:scale-95"
+            className="inline-flex items-center gap-2 px-8 py-3 bg-black text-white text-medium font-semibold rounded-xl shadow-lg hover:bg-[#1E2A78] transition-all duration-300 hover:scale-105"
           >
             Contact Us
           </a>
