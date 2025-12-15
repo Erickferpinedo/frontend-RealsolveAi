@@ -38,7 +38,7 @@ const HeroSection = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.15, duration: 0.7 }}
         viewport={{ once: true }}
-        className="max-w-2xl  mt-8 text-xl sm:text-xl md:text-xl md:text-xl font-medium text-[#1E2A78] mt-10 tracking-tight"
+        className="max-w-2xl  mt-8 text-xl sm:text-xl md:text-xl md:text-xl font-medium text-black mt-10 tracking-tight"
       >
         RealSolveAI builds practical AI agents for everyday businesses, starting with an AI receptionist that answers calls, books customers, and follows up automatically.
       </motion.p>
@@ -60,7 +60,7 @@ const HeroSection = () => {
           Schedule Demo
           <ArrowRight className="w-5 h-5" />
         </a>
-        <p className="text-[#6B7280] text-sm mt-4">No credit card required</p>
+        <p className="font-medium text-[#1E2A78] text-sm mt-4">No credit card required</p>
       </motion.div>
 
       {/* ===== Background Accent ===== */}
